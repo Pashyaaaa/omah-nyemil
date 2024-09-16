@@ -1,0 +1,61 @@
+{
+  "data": [
+    {
+      "makanan": [
+        {
+          "id": 1,
+          "nama": "Mie Ala Gacoan",
+          "deskripsi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quas cupiditate minus quasi itaque. Consequuntur?",
+          "harga": 12000,
+          "gambar": "2.png"
+        },
+        {
+          "id": 2,
+          "nama": "Wonton Pedas",
+          "deskripsi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quas cupiditate minus quasi itaque. Consequuntur?",
+          "harga": 10000,
+          "gambar": "3.png"
+        },
+        {
+          "id": 3,
+          "nama": "Wonton Kuah",
+          "deskripsi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quas cupiditate minus quasi itaque. Consequuntur?",
+          "harga": 10000,
+          "gambar": "4.png"
+        },
+        {
+          "id": 4,
+          "nama": "Ghoyong Sultan",
+          "deskripsi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quas cupiditate minus quasi itaque. Consequuntur?",
+          "harga": 15000,
+          "gambar": "5.png"
+        }
+      ]
+    },
+    {
+      "minuman": [
+        {
+          "id": 1,
+          "nama": "Es Teh Jumbo",
+          "deskripsi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quas cupiditate minus quasi itaque. Consequuntur?",
+          "harga": 5000,
+          "gambar": "2.png"
+        },
+        {
+          "id": 2,
+          "nama": "Pop Ice",
+          "deskripsi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quas cupiditate minus quasi itaque. Consequuntur?",
+          "harga": 3000,
+          "gambar": "3.png"
+        },
+        {
+          "id": 3,
+          "nama": "Milk Tea Time",
+          "deskripsi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quas cupiditate minus quasi itaque. Consequuntur?",
+          "harga": 8000,
+          "gambar": "4.png"
+        }
+      ]
+    }
+  ]
+}
