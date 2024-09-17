@@ -24,7 +24,7 @@ const MenuPage = () => {
         <MotionTemplate
           duration={0.25}
           delay={0.25}
-          x={-100}
+          x={-200}
           y={0}
           vh={false}
           inf={false}

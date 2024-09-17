@@ -63,7 +63,7 @@ const Carousel = ({ type, classname, border_color }) => {
       delay={0.25}
       x={0}
       y={0}
-      vh={false}
+      vh={true}
       inf={false}
       opacity={0}
       className="slider-container"

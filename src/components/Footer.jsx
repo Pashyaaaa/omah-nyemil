@@ -23,8 +23,9 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="https://instagram.com/vyanzll"
                 className="hover:text-gray-400 underline underline-offset-4"
+                target="_blank"
               >
                 Contact
               </a>
