@@ -114,7 +114,7 @@ const Carousel = ({ type, classname, border_color }) => {
                       : ""}
                   </p>
                 </button>
-                <p className="font-semibold pt-5 text-xl">
+                <p className="font-semibold font-montserratAlternates pt-5 text-xl">
                   Rp{e.harga.toLocaleString()}
                 </p>
               </div>
