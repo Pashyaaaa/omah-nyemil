@@ -29,7 +29,7 @@ const TitleMotion = (props) => {
         bounce: type ? bounce : "",
         ease: ease,
       }}
-      className={`banner-text ${classname} text-center text-white font-montserratAlternates font-semibold text-4xl md:text-6xl`}
+      className={`banner-text ${classname} text-center text-white font-montserratAlternates font-semibold text-3xl md:text-6xl`}
     >
       {children}
     </motion.h2>
