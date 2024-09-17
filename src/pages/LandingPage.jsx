@@ -160,11 +160,12 @@ const LandingPage = () => {
                 L
               </TitleMotion>
               <TitleMotion
-                duration={0.5}
+                duration={1}
                 x={0}
                 y={75}
-                delay={0.25}
-                ease="easeInOut"
+                delay={1}
+                type="spring"
+                bounce={0.8}
               >
                 🥡
               </TitleMotion>
@@ -182,11 +183,11 @@ const LandingPage = () => {
               delay: 0.3,
               ease: easeInOut,
             }}
-            className="text-center font-monserrat md:text-base text-xs p-5 mt-0 md:mt-5 mb-32 md:mx-0 mx-10 text-yellow-300 font-semibold"
+            className="text-center font-monserrat md:text-base text-xs p-5 mt-0 md:mt-5 mb-32 md:mx-0 mx-10 text-lime-400 font-semibold"
           >
-            Selamat datang di Omah Nyemil! Tempat yang sempurna bagi Anda yang
-            mencari makanan lezat, jajanan yang menggugah selera, dan minuman
-            segar. Di sini, kami memprioritaskan kualitas hidangan kami.
+            Welcome to Omah Nyemil-! The perfect place for those of you who are
+            looking for delicious food, mouth-watering snacks, and refreshing
+            drinks. Here, we prioritize the quality of our dishes.
           </motion.h5>
           <div className="banner-button flex justify-center items-center gap-5">
             <motion.button

@@ -44,7 +44,7 @@ function Navbar() {
         delay: 0.5,
         ease: easeIn,
       }}
-      className={`w-full p-4 flex justify-center gap-40 items-center fixed top-0 z-20 transition-all duration-300 ${
+      className={`w-full py-4 flex justify-around items-center fixed top-0 z-20 transition-all duration-300 ${
         isMenuOpen ? "shadow-none" : "shadow-xl"
       } ${scrolled || isMenuPath === "/menu" ? "bg-white" : "bg-transparent"}`}
     >
@@ -56,14 +56,14 @@ function Navbar() {
         />
         <div className="flex flex-col">
           <p
-            className={`text-xl font-monserrat font-semibold ${
+            className={`text-lg md:text-xl font-monserrat font-semibold ${
               scrolled || isMenuPath ? "text-black" : "text-white"
             } shadow-2xl`}
           >
             Omah Nyemil
           </p>
           <p
-            className={`text-sm font-light ${
+            className={` text-xs md:text-sm font-extralight ${
               scrolled || isMenuPath ? "text-black" : "text-white"
             }`}
           >
@@ -118,7 +118,8 @@ function Navbar() {
           </li>
           <li>
             <a
-              href="#"
+              href="https://instagram.com/vyanzll"
+              target="_blank"
               className={`hover:text-gray-600 ${
                 scrolled || isMenuPath ? "text-black" : "text-white"
               } font-semibold font-monserrat`}
@@ -160,7 +161,7 @@ function Navbar() {
               href="/"
               className={`${
                 scrolled || isMenuPath ? "text-black" : "text-white"
-              } hover:text-gray-400 font-semibold transition-all`}
+              } hover:text-gray-400 font-montserrat font-bold transition-all`}
             >
               Home🏡
             </motion.a>
@@ -180,7 +181,7 @@ function Navbar() {
               href="/menu"
               className={`${
                 scrolled || isMenuPath ? "text-black" : "text-white"
-              } hover:text-gray-400 font-semibold transition-all`}
+              } hover:text-gray-400 font-montserrat font-bold transition-all`}
             >
               List Menu🍜
             </motion.a>
@@ -197,10 +198,11 @@ function Navbar() {
                 delay: 0.3,
                 ease: easeInOut,
               }}
-              href="/#contact"
+              href="https://instagram.com/vyanzll"
+              target="_blank"
               className={`${
                 scrolled || isMenuPath ? "text-black" : "text-white"
-              } hover:text-gray-400 font-semibold transition-all`}
+              } hover:text-gray-400 font-montserrat font-bold transition-all`}
             >
               Contact☎️
             </motion.a>

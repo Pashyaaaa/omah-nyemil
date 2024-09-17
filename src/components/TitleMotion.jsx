@@ -9,9 +9,12 @@ const TitleMotion = (props) => {
     y,
     delay = 0.25,
     ease = easeIn,
+    type = "",
+    bounce = "",
     children = " ",
   } = props;
   return (
+    // bounce dikasi kondisi agar duration tidak terkena overriding atau tertimpa (dokumentasi framer)
     <motion.h2
       variants={{
         hidden: { opacity: 0, x: x, y: y },
@@ -22,6 +25,8 @@ const TitleMotion = (props) => {
       transition={{
         duration: duration,
         delay: delay,
+        type: type,
+        bounce: type ? bounce : "",
         ease: ease,
       }}
       className={`banner-text ${classname} text-center text-white font-montserratAlternates font-semibold text-4xl md:text-6xl`}

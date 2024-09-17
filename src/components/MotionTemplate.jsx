@@ -9,6 +9,8 @@ function MotionTemplate({
   vh,
   inf,
   opacity,
+  type = "",
+  bounce,
   ease = easeInOut,
 }) {
   return (
@@ -21,6 +23,8 @@ function MotionTemplate({
         delay: delay,
         repeat: inf,
         repeatType: "reverse",
+        type: type,
+        bounce: type ? bounce : "",
         ease: ease,
       }}
       variants={{

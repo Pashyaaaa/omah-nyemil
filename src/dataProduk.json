@@ -5,30 +5,30 @@
         {
           "id": 1,
           "nama": "Mie Ala Gacoan",
-          "deskripsi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quas cupiditate minus quasi itaque. Consequuntur?",
+          "deskripsi": "Nikmati sensasi mie lezat yang diracik dengan bumbu khas Gacoan, menghadirkan perpaduan sempurna antara rasa pedas dan gurih. Mie kenyal yang dilengkapi dengan topping daging ayam suwir dan sayuran segar ini cocok untuk Anda yang suka tantangan pedas dengan cita rasa yang unik.",
           "harga": 12000,
-          "gambar": "2.png"
+          "gambar": "miealagacoan.jpg"
         },
         {
           "id": 2,
           "nama": "Wonton Pedas",
-          "deskripsi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quas cupiditate minus quasi itaque. Consequuntur?",
+          "deskripsi": "Kelezatan wonton dengan isian daging yang juicy, dibalut kulit tipis dan renyah, ditambah dengan saus pedas yang menggigit! Satu gigitan akan membuat Anda ketagihan dengan perpaduan tekstur lembut dan renyah, disempurnakan dengan saus khas yang menggugah selera.",
           "harga": 10000,
-          "gambar": "3.png"
+          "gambar": "wontonpedas.jpg"
         },
         {
           "id": 3,
           "nama": "Wonton Kuah",
-          "deskripsi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quas cupiditate minus quasi itaque. Consequuntur?",
+          "deskripsi": "Hidangan yang hangat dan lezat, wonton dengan isian daging yang kaya rasa disajikan dalam kuah kaldu bening yang gurih. Cocok untuk dinikmati saat cuaca dingin atau ketika Anda membutuhkan makanan yang menenangkan dengan rasa yang lembut namun memuaskan.",
           "harga": 10000,
-          "gambar": "4.png"
+          "gambar": "wontonkuah.jpg"
         },
         {
           "id": 4,
           "nama": "Ghoyong Sultan",
-          "deskripsi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quas cupiditate minus quasi itaque. Consequuntur?",
+          "deskripsi": "Perpaduan Kulit Pangsit dan Daging sapi panggang pilihan yang diolah dengan bumbu khas ala Sultan, disajikan dengan saus spesial yang mewah. Setiap potongan daging memiliki tekstur lembut dan rasa yang kaya, memberikan pengalaman makan yang benar-benar elegan dan berbeda.",
           "harga": 15000,
-          "gambar": "5.png"
+          "gambar": "gohyong.jpeg"
         }
       ]
     },
@@ -37,23 +37,23 @@
         {
           "id": 1,
           "nama": "Es Teh Jumbo",
-          "deskripsi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quas cupiditate minus quasi itaque. Consequuntur?",
+          "deskripsi": "Minuman es teh dengan porsi besar yang menyegarkan. Dibuat dari daun teh pilihan, disajikan dengan es batu melimpah untuk sensasi dingin yang sempurna. Cocok untuk melepas dahaga Anda setelah menikmati makanan pedas atau saat cuaca panas.",
           "harga": 5000,
-          "gambar": "2.png"
+          "gambar": "estehjumbo.jpeg"
         },
         {
           "id": 2,
           "nama": "Pop Ice",
-          "deskripsi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quas cupiditate minus quasi itaque. Consequuntur?",
+          "deskripsi": "Pilihan minuman Pop Ice favorit dengan beragam rasa buah dan cokelat yang creamy dan menyegarkan. Dari stroberi, cokelat, hingga mangga, Anda dapat memilih sesuai selera untuk sensasi dingin dan manis yang pas dinikmati kapan saja.",
           "harga": 3000,
-          "gambar": "3.png"
+          "gambar": "popice.jpeg"
         },
         {
           "id": 3,
           "nama": "Milk Tea Time",
-          "deskripsi": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quas cupiditate minus quasi itaque. Consequuntur?",
+          "deskripsi": "Minuman teh susu yang creamy dan menyegarkan, cocok untuk menemani waktu santai Anda. Perpaduan teh hitam yang aromatik dan susu yang lembut menghasilkan rasa yang kaya dan nikmat di setiap tegukan.",
           "harga": 8000,
-          "gambar": "4.png"
+          "gambar": "milkteatime.jpg"
         }
       ]
     }

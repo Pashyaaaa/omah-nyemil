@@ -6,7 +6,7 @@ import WaveComponent from "../components/WaveComponent";
 
 const MenuPage = () => {
   return (
-    <div id="menu" className="min-h-screen mt-28">
+    <div id="menu" className="min-h-screen mt-36">
       <Navbar />
       <div className="w-72 relative">
         <MotionTemplate
@@ -42,7 +42,7 @@ const MenuPage = () => {
           inf={false}
           opacity={0}
         >
-          <h2 className="w-72 text-blue-500 text-3xl md:text-3xl font-semibold md:ml-24 ml-12 mb-14">
+          <h2 className="w-72 text-blue-500 text-3xl md:text-3xl font-semibold font-monserrat md:ml-24 ml-12 mb-14">
             All Menu📋
           </h2>
         </MotionTemplate>
@@ -50,15 +50,15 @@ const MenuPage = () => {
 
       <div className="relative p-5 mb-5 mx-5">
         <MotionTemplate
-          duration={0.8}
+          duration={0.5}
           delay={0.25}
-          x={100}
-          y={0}
+          x={0}
+          y={100}
           vh={false}
           inf={false}
           opacity={0}
         >
-          <h1 className="text-right text-2xl right-0 font-pacifico">
+          <h1 className="text-right text-2xl md:text-4xl right-0 font-pacifico relative">
             &raquo; Makanan &laquo;
           </h1>
         </MotionTemplate>
@@ -69,15 +69,15 @@ const MenuPage = () => {
 
       <div className="relative bg-[#88C0FF] p-5 bg-opacity-100 w-full">
         <MotionTemplate
-          duration={0.8}
+          duration={0.5}
           delay={0.25}
-          x={-100}
-          y={0}
+          x={0}
+          y={100}
           vh={false}
           inf={false}
           opacity={0}
         >
-          <h1 className="text-slate-700 mb-5 mx-5 text-2xl right-0 font-pacifico">
+          <h1 className="text-slate-700 mb-5 mx-5 text-2xl md:text-4xl right-0 font-pacifico">
             &raquo; Minuman &laquo;
           </h1>
         </MotionTemplate>
