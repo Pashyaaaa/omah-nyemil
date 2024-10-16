@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+/** Coming Update in 18 oct */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
